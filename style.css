@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
@@ -7,14 +8,28 @@ h1{
 .name-color{
     color: orange;
 }
+.f-background{
+    background-image: url(images/corner.png);
+    background-repeat: no-repeat;
+}
 .firstsecction{
     display: flex;
+
 }
 .up-side{
     width: 50%;
     padding-left: 10%;
+    padding-top: 2%;
     
 }
 .up-side img{
     width: 80%;
+}
+.hire-me{
+    text-decoration: none;
+    background-image: linear-gradient(#e86646, red );
+    padding: 5px 30px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
 }
