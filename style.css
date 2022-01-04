@@ -18,18 +18,59 @@ h1{
 }
 .up-side{
     width: 50%;
-    padding-left: 10%;
-    padding-top: 2%;
+    padding-left: 8%;
+    padding-top: 4%;
     
 }
 .up-side img{
     width: 80%;
 }
-.hire-me{
+.linked-button{
     text-decoration: none;
     background-image: linear-gradient(#e86646, red );
     padding: 5px 30px;
     border-radius: 15px;
     color: white;
     font-weight: 700;
+}
+.secondsection{
+    display: flex;
+    margin-top: 7%;
+}
+
+
+.s-background{
+    background-image: url(images/side-img.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.flexible-conteiner{
+    display: flex;
+    margin-bottom: 150px;
+}
+.down-side{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.tsection{
+    background-image: url(images/side-img2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
